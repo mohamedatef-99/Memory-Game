@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <div class="control-buttons position-fixed start-0 top-0 w-100 h-100 z-2">
+        <span class="position-absolute start-50 top-50 text-center rounded-4 fs-2">Start Game</span>
+    </div>
+    <div class="info-container ">
+        <div class="name float-start w-50">
+            Hello: <span class="user"></span> Can You Solve It?!
+        </div>
+        <div class="tries float-end w-50 text-end">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks d-flex">
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/Angular.svg.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/Angular.svg.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="vuejs">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/vue.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="vuejs">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/vue.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/css.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/css.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/github.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/github.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/glup.webp" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/glup.webp" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/html.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/html.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/jest.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/jest.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/mongodb.gif" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/mongodb.gif" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="python">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/python.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="python">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/python.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="react">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/react.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="react">
+            <div class="face front"></div>
+            <div class="face back">
+                <img decoding="async" src="imgs/react.png" alt="">
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="sound/success-1-6297.mp3" preload="auto"></audio>
+    <audio id="fail" src="sound/wrong-answer-126515.mp3" preload="auto"></audio>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
